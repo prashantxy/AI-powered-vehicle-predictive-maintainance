@@ -90,7 +90,7 @@ if st.sidebar.button("Predict Maintenance"):
         if maintenance_miles:
             st.success(f"🛠️ Maintenance is needed in **{maintenance_miles} miles**.")
         else:
-            st.error("❌ Maintenance prediction failed.")
+            st.error("❌ Maintenance do not required.")
 
 # Displaying the inputted data
 st.subheader("Bus Data Summary")
